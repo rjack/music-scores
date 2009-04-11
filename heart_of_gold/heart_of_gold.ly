@@ -1,9 +1,9 @@
-\version "2.10.33"
+\version "2.12.0"
 
 \header {
   title = "Heart of Gold"
   composer = "Neil Young"
-  copyright = \markup \center-align {
+  copyright = \markup \center-column {
     "This file is Giacomo Ritucci's own work and represents his interpretation of the song."
     "You may only use this file for private study, scholarship, or research."
     " "
