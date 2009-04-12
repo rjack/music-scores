@@ -14,6 +14,7 @@
 globals = {
   \key e \minor
   \time 4/4
+  \tempo 4 = 86
 }
 
 
