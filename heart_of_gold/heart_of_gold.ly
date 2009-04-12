@@ -82,8 +82,20 @@ leadGuitar = \relative {
   c |
 }
 
+strumEminorDmajor = \relative c {
+  < e b' e g b e >8
+  < e b' e g b e >8
+  < e b' e g b e >8
+  < e b' e g b e >8
+  < e b' e g b e >8
+  < e b' e g b e >8
+  < a d a' d fis >4
+  < a d a' d fis >8
+  < e b' e g b e >4
+}
 
-rhythmGuitar = \relative {
+
+rhythmGuitar = \relative c {
   \globals
   \clef treble
   \set Staff.instrumentName = \markup {
@@ -94,8 +106,8 @@ rhythmGuitar = \relative {
   }
   \set Staff.shortInstrumentName = "RG"
 
-  r1 | r | r | r |
-  c |
+  e4 \strumEminorDmajor a16 b d8 e |
+  e,8 e8 \strumEminorDmajor a16 b d8 e |
 }
 
 
