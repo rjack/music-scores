@@ -24,8 +24,8 @@ voice = \relative c' {
   \set Staff.instrumentName = "Voice"
   \set Staff.shortInstrumentName = "V"
 
-  r1 | r | r | r |
-  c2 c2 |
+  r1 * 12 |
+  c1 |
 }
 
 
@@ -62,8 +62,7 @@ harp = \relative {
   \set Staff.shortInstrumentName = "H"
   \clef treble
 
-  r1 | r | r | r |
-  c |
+  r1*4 |
 }
 
 
@@ -78,8 +77,7 @@ leadGuitar = \relative {
   }
   \set Staff.shortInstrumentName = "LG"
 
-  r1 | r | r | r |
-  c |
+  r1 |
 }
 
 strumEminorDmajor = \relative c {
@@ -117,8 +115,7 @@ bass = \relative {
   \set Staff.instrumentName = "Bass"
   \set Staff.shortInstrumentName = "B"
 
-  r1 | r | r | r |
-  c
+  r1 |
 }
 
 
