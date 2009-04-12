@@ -109,6 +109,13 @@ rhythmGuitar = \relative c {
 }
 
 
+rhythmGuitarChords = \chordmode {
+  r4 e2.:m |
+  d4. e4:m r4. |
+  r4 e2.:m |
+  d4. e4:m r4. |
+}
+
 bass = \relative {
   \globals
   \clef bass
@@ -130,7 +137,12 @@ bass = \relative {
     >>
     \new Staff \harp
     \new Staff \leadGuitar
-    \new Staff \rhythmGuitar
+    <<
+      \new ChordNames {
+	\rhythmGuitarChords
+      }
+      \new Staff \rhythmGuitar
+    >>
     \new Staff \bass
   >>
   \layout { }
