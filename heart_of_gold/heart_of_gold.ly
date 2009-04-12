@@ -83,15 +83,15 @@ leadGuitar = \relative {
 }
 
 strumEminorDmajor = \relative c {
+  < e b' e g b e >8     % Em
   < e b' e g b e >8
   < e b' e g b e >8
   < e b' e g b e >8
   < e b' e g b e >8
   < e b' e g b e >8
-  < e b' e g b e >8
-  < a d a' d fis >4
+  < a d a' d fis >4     % D
   < a d a' d fis >8
-  < e b' e g b e >4
+  < e b' e g b e >4     % Em
 }
 
 
