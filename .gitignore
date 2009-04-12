@@ -1,5 +1,7 @@
 *.ps
 *.pdf
 *.midi
+*.mid
+*.log
 *~
 *.swp
