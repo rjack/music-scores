@@ -103,6 +103,7 @@ rhythmGuitar = \relative c {
     }
   }
   \set Staff.shortInstrumentName = "RG"
+  \set Staff.midiInstrument = "acoustic guitar (steel)"
 
   e4 \strumEminorDmajor a16 b d8 e |
   e,8 e8 \strumEminorDmajor a16 b d8 e |
