@@ -136,22 +136,22 @@ bass = \relative {
 
 \score {
   <<
-    <<
-      \new Voice = "one" {
-	\autoBeamOff
-	\voice
-      }
-      \new Lyrics \lyricsto "one" \voiceLyrics
-    >>
+%    <<
+%      \new Voice = "one" {
+%	\autoBeamOff
+%	\voice
+%      }
+%      \new Lyrics \lyricsto "one" \voiceLyrics
+%    >>
     \new Staff \harmonica
-    \new Staff \leadGuitar
+%    \new Staff \leadGuitar
     <<
       \new ChordNames {
 	\rhythmGuitarChords
       }
       \new Staff \rhythmGuitar
     >>
-    \new Staff \bass
+%    \new Staff \bass
   >>
   \layout { }
   \midi { }
