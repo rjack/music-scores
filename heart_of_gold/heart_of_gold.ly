@@ -87,7 +87,7 @@ leadGuitar = \relative {
   r1 |
 }
 
-strumEminorDmajor = \relative c {
+strumEminD = \relative c {
   < e b' e g b e >8     % Em
   < e b' e g b e >8
   < e b' e g b e >8
@@ -112,8 +112,8 @@ rhythmGuitar = \relative c {
   \set Staff.shortInstrumentName = "RG"
   \set Staff.midiInstrument = "acoustic guitar (steel)"
 
-  e4 \strumEminorDmajor a16 b d8 e |
-  e,8 e8 \strumEminorDmajor a16 b d8 e |
+  e4 \strumEminD a16 b d8 e |
+  e,8 e8 \strumEminD a16 b d8 e |
 }
 
 
