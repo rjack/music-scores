@@ -100,6 +100,14 @@ strumEminD = \relative c {
 }
 
 
+strumEminCDG = \relative c {
+  < e b' e g b e >2     % Em
+  < e c' e g c e >2     % C
+  < a d a' d fis >2     % D
+  < g b d g b g' >2     % G
+}
+
+
 rhythmGuitar = \relative c {
   \globals
   \clef treble
@@ -114,6 +122,11 @@ rhythmGuitar = \relative c {
 
   e4 \strumEminD a16 b d8 e |
   e,8 e8 \strumEminD a16 b d8 e |
+
+  \strumEminCDG |
+  \strumEminCDG |
+  \strumEminCDG |
+  r4 \strumEminD a,16 b d8 e |
 }
 
 
