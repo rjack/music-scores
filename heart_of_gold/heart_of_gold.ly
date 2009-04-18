@@ -56,13 +56,20 @@ voiceLyrics = \lyricmode {
 }
 
 
-harp = \relative {
+harmonica = \relative {
   \globals
-  \set Staff.instrumentName = "Harp"
+  \set Staff.instrumentName = "Harmonica"
   \set Staff.shortInstrumentName = "H"
+  \set Staff.midiInstrument = "harmonica"
   \clef treble
 
   r1*4 |
+
+  r4 b4 d4 c16 b8. |
+  a4 g8 d4. r4 |
+
+  r4 d'4 g4 e16 d8. |
+  e4 d8 b4. r4 |
 }
 
 
@@ -136,7 +143,7 @@ bass = \relative {
       }
       \new Lyrics \lyricsto "one" \voiceLyrics
     >>
-    \new Staff \harp
+    \new Staff \harmonica
     \new Staff \leadGuitar
     <<
       \new ChordNames {
