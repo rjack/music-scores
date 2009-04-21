@@ -4,4 +4,4 @@
 	lilypond $<
 
 clean	:
-	rm -f *.pdf *.ps *.log *.mid *.midi *~
+	rm -f *.pdf *.ps *.png *.log *.mid *.midi *~
