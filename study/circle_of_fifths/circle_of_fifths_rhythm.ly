@@ -16,7 +16,39 @@ globals = {
 }
 
 
-rhythmGuitarChords = \relative c {
+isChords = \relative c {
+  \key c \major
+  \chordmode {
+    c1 | c | c | c |
+  }
+
+  \key g \major
+  \chordmode {
+    g1 | g | g | g |
+  }
+
+  \key d \major
+  \chordmode {
+    d1 | d | d | d |
+  }
+
+  \key a \major
+  \chordmode {
+    a1 | a | a | a |
+  }
+
+  \key e \major
+  \chordmode {
+    e1 | e | e | e |
+  }
+
+  \key b \major
+  \chordmode {
+    b1 | b | b | b |
+  }
+}
+
+esChords = \relative c {
   \key c \major
   \chordmode {
     c1 | c | c | c |
@@ -57,7 +89,9 @@ rhythmGuitarChords = \relative c {
   \new Staff {
     \globals
     r1 |
-    \rhythmGuitarChords |
+    \esChords |
+    r1 |
+    \isChords |
   }
 
   \layout { }
