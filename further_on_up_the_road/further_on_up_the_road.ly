@@ -19,9 +19,9 @@ globals = {
 }
 
 
-voice = \relative c' {
+voice = \relative c {
   \globals
-  \clef treble
+  \clef bass
   \set Staff.instrumentName = "Voice"
   \set Staff.shortInstrumentName = "V"
 
