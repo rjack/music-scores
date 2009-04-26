@@ -28,7 +28,7 @@ voice = \relative c {
   | r1*3 |
   | r2 r8 \times 2/3 { a8 a16 } \times 2/6 { a4 c4. e8 ~ | e8 r4 }
   r2 \times 2/3 { a,8 a16 } \times 2/6 { c4 d4. e8 ~ | e4. }
-  r2 r4. |
+  r2 \times 2/3 { e8 e16 } \times 2/6 { e4 g4. a8 ~ | a4. }
 }
 
 voiceLyrics = \lyricmode {
