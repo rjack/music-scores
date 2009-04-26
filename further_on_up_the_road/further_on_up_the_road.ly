@@ -69,11 +69,19 @@ voiceLyrics = \lyricmode {
 
 \score {
   <<
-    \new Voice = "jc" {
-      \autoBeamOff
-      \voice
+    <<
+      \new Voice = "jc" {
+	\autoBeamOff
+	\voice
+      }
+      \new Lyrics \lyricsto "jc" \voiceLyrics
+    >>
+
+    \drums {
+      \repeat unfold 6 {
+	hh4 hh hh hh
+      }
     }
-    \new Lyrics \lyricsto "jc" \voiceLyrics
   >>
 
   \layout { }
