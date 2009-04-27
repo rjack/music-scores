@@ -86,15 +86,22 @@ esChords = \relative c {
 
 \score {
 
-  \new Staff {
-    \globals
-    r1 |
-    \esChords |
-    r1 |
-    \isChords |
-  }
+  <<
+    \new Staff {
+      \globals
+      r1 |
+      \esChords |
+      r1 |
+      \isChords |
+    }
+
+    \drums {
+      \repeat unfold 58 {
+	hh4 hh hh hh
+      }
+    }
+  >>
 
   \layout { }
   \midi { }
 }
-
