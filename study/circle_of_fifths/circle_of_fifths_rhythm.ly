@@ -83,10 +83,93 @@ esChords = \relative c {
   }
 }
 
+isNotes = \relative c' {
+  \key c \major
+  \repeat unfold 4 {
+    c8 d e f g a b c |
+  }
+
+  \key g \major
+  \repeat unfold 4 {
+    g a b c d e fis g |
+  }
+
+  \key d \major
+  \repeat unfold 4 {
+    d, e fis g a b cis d |
+  }
+
+  \key a \major
+  \repeat unfold 4 {
+    a, b cis d e fis gis a |
+  }
+
+  \key e \major
+  \repeat unfold 4 {
+    e fis gis a b cis dis e |
+  }
+
+  \key b \major
+  \repeat unfold 4 {
+    b, cis dis e fis gis ais b |
+  }
+}
+
+
+esNotes = \relative c' {
+  \key c \major
+  \repeat unfold 4 {
+    c8 d e f g a b c |
+  }
+
+  \key f \major
+  \repeat unfold 4 {
+    f,8 g a bes c d e f |
+  }
+
+  \key bes \major
+  \repeat unfold 4 {
+    bes,,8 c d ees f g a bes |
+  }
+
+  \key ees \major
+  \repeat unfold 4 {
+    ees,8 f g aes bes c d ees |
+  }
+
+  \key aes \major
+  \repeat unfold 4 {
+    aes,8 bes c des ees f g aes |
+  }
+
+  \key des \major
+  \repeat unfold 4 {
+    des,,8 ees f ges aes bes c des |
+  }
+
+  \key ges \major
+  \repeat unfold 4 {
+    ges,8 aes bes ces des ees f ges |
+  }
+
+  \key ces \major
+  \repeat unfold 4 {
+    ces,,8 des ees fes ges aes bes ces |
+  }
+}
+
 
 \score {
 
   <<
+    \new Staff {
+      \globals
+      r1 |
+      \esNotes |
+      r1 |
+      \isNotes |
+    }
+
     \new Staff {
       \globals
       r1 |
