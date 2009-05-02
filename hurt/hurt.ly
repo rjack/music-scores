@@ -78,8 +78,8 @@ voice = \relative c {
   | r2. e4 |
   | g8 e4 d2 c8 |
   | e4 r2 r8 c8 |
-%  | d4 c8 d4. c4 |     % FIX RHYTHM
-%  | e1 |
+  | d4 c8 d4 r4 c8 |
+  | e1 |
 }
 
 
