@@ -115,12 +115,12 @@ guitar = \relative c {
       \new Lyrics \lyricsto "jc" \voiceLyrics
     >>
 
-    <<
-      \new ChordNames {
-	\guitarChords
-      }
+%    <<
+%      \new ChordNames {
+%	\guitarChords
+%      }
       \new Staff \guitar
-    >>
+%    >>
   >>
   \layout { }
   \midi { }
