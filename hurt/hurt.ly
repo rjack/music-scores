@@ -77,9 +77,9 @@ voice = \relative c {
 
   | r2. e4 |
   | g8 e4 d2 c8 |
-  | e4 r2 r8 c8 |
-  | d4 c8 d4 r4 c8 |
-  | e1 |
+  | e2 r4 r8 c8 |
+  | d4 c8 d4 c4. |
+  | e4 r2. |
 }
 
 
