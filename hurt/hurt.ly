@@ -72,6 +72,7 @@ voice = \relative c {
   \clef bass
   \set Staff.instrumentName = "Voice"
   \set Staff.shortInstrumentName = "V"
+  \set Staff.midiInstrument = "flute"
 
   | r1*4 |
 
